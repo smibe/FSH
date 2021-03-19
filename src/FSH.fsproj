@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>Christopher Pritchard</Authors>
     <Description>A command line shell written in F# with integrated F# Interactive</Description>
     <RepositoryUrl>https://github.com/ChrisPritchard/FSH</RepositoryUrl>
@@ -25,6 +25,7 @@
   <ItemGroup>
     <PackageReference Include="FSharp.Compiler.Service" Version="26.0.1" />
     <PackageReference Update="FSharp.Core" Version="4.6.2" />
+    <PackageReference Include="FSharp.Data" Version="3.3.3" />
   </ItemGroup>
 
 </Project>

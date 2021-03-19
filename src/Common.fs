@@ -11,7 +11,7 @@ let promptName = "FSH"
 /// The colour scheme of the application, intended to be used with the apply method.
 module Colours =
     let title = ConsoleColor.Magenta
-    let prompt = ConsoleColor.Magenta
+    let prompt = ConsoleColor.Yellow
     let goodOutput = ConsoleColor.Green
     let errorOutput = ConsoleColor.Red
     let command = ConsoleColor.Yellow

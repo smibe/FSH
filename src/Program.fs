@@ -159,7 +159,7 @@ let main _ =
     /// This function is tail call optimised, so can loop forever until 'exit' is entered.
     let rec coreLoop prior =
         apply Colours.prompt
-        printf "%s %s> " promptName (currentDir ())
+        printf "%s %s\n--> " promptName (currentDir ())
         // Here is called a special function from LineReader.fs that accepts tabs and the like.
         let entered = readLine prior
         if entered.Trim() = "exit" then ()
